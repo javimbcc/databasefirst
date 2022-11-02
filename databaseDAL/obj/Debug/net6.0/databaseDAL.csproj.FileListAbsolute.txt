@@ -1,0 +1,14 @@
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\bin\Debug\net6.0\databaseDAL.deps.json
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\bin\Debug\net6.0\databaseDAL.runtimeconfig.json
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\bin\Debug\net6.0\databaseDAL.dll
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\bin\Debug\net6.0\databaseDAL.pdb
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.csproj.AssemblyReference.cache
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.AssemblyInfoInputs.cache
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.AssemblyInfo.cs
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.csproj.CoreCompileInputs.cache
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.dll
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\refint\databaseDAL.dll
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.pdb
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\databaseDAL.genruntimeconfig.cache
+C:\Users\javi\source\repos\DatabaseFirst\databaseDAL\obj\Debug\net6.0\ref\databaseDAL.dll

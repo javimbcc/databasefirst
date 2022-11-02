@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirst", "DatabaseFirst\DatabaseFirst.csproj", "{F919EFCF-8475-4519-AD66-2E2F6571F204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "databaseDAL", "databaseDAL\databaseDAL.csproj", "{51CCABCE-F953-4A38-945E-78DCBDA95E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F919EFCF-8475-4519-AD66-2E2F6571F204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F919EFCF-8475-4519-AD66-2E2F6571F204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F919EFCF-8475-4519-AD66-2E2F6571F204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F919EFCF-8475-4519-AD66-2E2F6571F204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CCABCE-F953-4A38-945E-78DCBDA95E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CCABCE-F953-4A38-945E-78DCBDA95E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CCABCE-F953-4A38-945E-78DCBDA95E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CCABCE-F953-4A38-945E-78DCBDA95E01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADECF6AF-2638-4BCF-A71B-6CA3AE4CC234}
+	EndGlobalSection
+EndGlobal
