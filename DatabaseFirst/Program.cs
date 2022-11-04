@@ -1,8 +1,18 @@
+using databaseDAL.Modelo;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+//builder.Services.AddControllersWithViews();
 
+//var app = builder.Build();
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<databasefirstContext>(
+    o => o.UseNpgsql(builder.Configuration.GetConnectionString("EFCConexion"))
+    );
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
