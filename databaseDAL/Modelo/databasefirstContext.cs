@@ -17,6 +17,7 @@ namespace databaseDAL.Modelo
         }
 
         public virtual DbSet<Alumno> Alumnos { get; set; } = null!;
+        public virtual DbSet<Asignatura> Asignaturas { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -46,6 +47,19 @@ namespace databaseDAL.Modelo
                 entity.Property(e => e.Nombre)
                     .HasColumnType("character varying")
                     .HasColumnName("nombre");
+            });
+
+            modelBuilder.Entity<Asignatura>(entity =>
+            {
+                entity.HasComment("Entidad que regula las asignaturas del centro");
+
+                entity.Property(e => e.AsignaturaId)
+                    .HasColumnName("asignatura_id")
+                    .UseIdentityAlwaysColumn();
+
+                entity.Property(e => e.AsignaturaNombre)
+                    .HasColumnType("character varying")
+                    .HasColumnName("asignatura_nombre");
             });
 
             OnModelCreatingPartial(modelBuilder);

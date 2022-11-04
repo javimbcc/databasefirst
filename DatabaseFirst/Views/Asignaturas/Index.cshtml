@@ -1,0 +1,20 @@
+﻿@model IEnumerable<databaseDAL.Modelo.Asignatura>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Asignaturas</h1>
+
+<p>Aqui podrá ver las asignaturas que ofrecemos</p>
+<table class="table">
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AsignaturaNombre)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
